@@ -191,7 +191,7 @@ public class MainActivity extends AppCompatActivity {
         if (System.currentTimeMillis() < chosenDate){
             return true;
         }
-        else if ( System.currentTimeMillis()== today.get(Calendar.YEAR)
+        else if ( today.get(Calendar.YEAR)== today.get(Calendar.YEAR)
         && today.get(Calendar.MONTH) == chosen.get(Calendar.MONTH)
         && today.get(Calendar.YEAR) == chosen.get(Calendar.YEAR)){//todo handle today for passed hours and minutes
             return true;

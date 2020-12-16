@@ -90,10 +90,11 @@ public class GridAdapter extends ArrayAdapter {
 
     /**
      * this method checks if we are in current month page will set background for current date
-     * @param view is my item
+     *
+     * @param view         is my item
      * @param displayMonth is the month which user chose and can see
-     * @param displayYear is the month which user chose and can see
-     * @param dayNum is one of the days which user can see and if it is today this method will set background for it
+     * @param displayYear  is the month which user chose and can see
+     * @param dayNum       is one of the days which user can see and if it is today this method will set background for it
      */
     private void showToday(View view, int displayMonth, int displayYear, int dayNum) {
         Calendar todayCalendar = Calendar.getInstance();
@@ -111,8 +112,8 @@ public class GridAdapter extends ArrayAdapter {
         alpha.setDuration(1000).start();
         rotation.setDuration(1000).start();
     }
+
     /**
-     *
      * @param setMarkOnDate is an interface which handles setting marks on dates
      */
     public void setSetMarkOnDate(SetMarkOnDate setMarkOnDate) {

@@ -76,15 +76,12 @@ public class MyShowEventsView extends LinearLayout {
      * @param hasAlarm shows we have alarm or not
      */
     public void setAlarmIcon(int hasAlarm) {
-        System.out.println(":::::::::::;"+hasAlarm);
         if (hasAlarm != 0) {
             alarm.setColorFilter(Color.parseColor("#f1c40f"));
-            System.out.println("++++++++++++");
             animations(alarm);
         } else
             alarm.setColorFilter(Color.parseColor("#f2dbb2"));
         animations(alarm);
-        System.out.println("_--------------------------------");
     }
 
     private void animations(View view) {
