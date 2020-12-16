@@ -1,0 +1,3 @@
+include ':PersianDatepickerLibrary'
+include ':app'
+rootProject.name = "PersianDatepicker"
